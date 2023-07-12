@@ -1,2 +1,54 @@
-hello
-hello
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   background-image: url(https://tailwindui.com/img/beams-home@95.jpg);
+   padding: 100px 0;
+}
+
+.container {
+    width: 800px;
+    min-height: 800px;
+    border: 10px solid blueviolet;
+    margin: 0 auto;
+    background: white 
+    }
+    .header {
+        display: flex;
+        height: 150px;
+    }
+    .title-block {
+        position:relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        font-size: 30px;
+        background: url(https://tva.ua/wp-content/uploads/2021/04/photo-1600699260716-d5ed9a3f9efe.jpg) no-repeat center center / cover;
+        color: white;
+        margin-right: 10px;
+
+        
+        
+    }
+    .title {
+        position: absolute;
+    }
+    .title-block::after {
+        content: '';
+        position:absolute;
+        left:0;
+        top:0;
+
+    }
+    .nav ul {
+        position:
+        
+        
+
+    }
+    .nav li a {
+        display:table-row;
+        padding: 20px;
+    }
